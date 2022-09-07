@@ -20,15 +20,18 @@ struct ContentView: View {
                         Text("Hello,My name is Manal")
                             .font(.largeTitle)
                             .foregroundColor(.red)
+                            
                             .padding()
                         Text("I am 23 years old")
                             .foregroundColor(.red)
-                            .bold()
+                            .font(.title2)
+        
                             
                             
                 
                         Text("I am learning SwiftUI now")
                             .foregroundColor(.red)
+                            .font(.title2)
                             .padding()
                         
                     
@@ -36,12 +39,15 @@ struct ContentView: View {
                     
                         Image(systemName:"heart.fill")
                         .padding()
+                        .font(.largeTitle)
                         Spacer()
                         Image(systemName: "gear")
                         .padding()
+                        .font(.largeTitle)
                         Spacer()
                         Image(systemName: "trash")
                         .padding()
+                        .font(.largeTitle)
                     
                         }
                 
